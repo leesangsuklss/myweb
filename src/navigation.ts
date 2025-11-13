@@ -38,7 +38,7 @@ export const footerData = {
   socialLinks: [
     { ariaLabel: 'Email', icon: 'tabler:mail', href: 'mailto:lee.sangsuk.lss@gmail.com' },
     { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/in/sangsuk-lee' },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/arthelokyo/astrowind' },
+    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/leesangsuklss' },
   ],
   footNote: `
     Made by Sangsuk Lee · All rights reserved.

@@ -104,7 +104,7 @@
               "RelativeDocumentMoniker": "components\\widgets\\Content.astro",
               "ToolTip": "D:\\astro_project\\src\\components\\widgets\\Content.astro",
               "RelativeToolTip": "components\\widgets\\Content.astro",
-              "ViewState": "AgIAADsAAAAAAAAAAAAUwFEAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAkwE4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-10-09T20:02:55.686Z",
               "EditorCaption": ""
@@ -177,9 +177,10 @@
               "RelativeDocumentMoniker": "navigation.ts",
               "ToolTip": "D:\\astro_project\\src\\navigation.ts",
               "RelativeToolTip": "navigation.ts",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-12T18:44:04.792Z"
+              "WhenOpened": "2025-09-12T18:44:04.792Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -189,9 +190,10 @@
               "RelativeDocumentMoniker": "layouts\\PageLayout.astro",
               "ToolTip": "D:\\astro_project\\src\\layouts\\PageLayout.astro",
               "RelativeToolTip": "layouts\\PageLayout.astro",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-09-12T18:43:56.971Z"
+              "WhenOpened": "2025-09-12T18:43:56.971Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -201,7 +203,7 @@
               "RelativeDocumentMoniker": "pages\\index.astro",
               "ToolTip": "D:\\astro_project\\src\\pages\\index.astro",
               "RelativeToolTip": "pages\\index.astro",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAUwH8AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAAIEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-09-12T22:54:04.446Z",
               "EditorCaption": ""
