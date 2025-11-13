@@ -1,0 +1,545 @@
+  ---
+  import Layout from '~/layouts/PageLayout.astro';
+
+  import Hero from '~/components/widgets/Hero.astro';
+  import Note from '~/components/widgets/Note.astro';
+  import Features from '~/components/widgets/Features.astro';
+  import Features2 from '~/components/widgets/Features2.astro';
+  import Steps from '~/components/widgets/Steps.astro';
+  import Content from '~/components/widgets/Content.astro';
+  import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+  import FAQs from '~/components/widgets/FAQs.astro';
+  import Stats from '~/components/widgets/Stats.astro';
+  import Button from '~/components/ui/Button.astro';
+  import { Image } from 'astro:assets';
+  import research1 from '~/assets/images/research1.png';
+  import research2 from '~/assets/images/research2.png';
+  import research3 from '~/assets/images/research3.png';
+  import research4 from '~/assets/images/research4.png';
+  import research5 from '~/assets/images/research5.png';
+  import research6 from '~/assets/images/research6.png';
+  import services1 from '~/assets/images/services1.jpg';
+  import services2 from '~/assets/images/services2.png';
+  import services3 from '~/assets/images/services3.jpg';
+  import me1 from '~/assets/images/me1.jpg';
+  import me2 from '~/assets/images/me2.jpg';
+  import me3 from '~/assets/images/me3.jpg';
+
+  const metadata = {
+    title: 'Dr.Lee Personal Website',
+    ignoreTitleTemplate: true,
+  };
+  ---
+
+  <Layout metadata={metadata}>
+    <!-- Hero Widget ******************* -->
+
+    <Hero
+    id="about"
+    tagline="About"
+    actions={[]}
+    image={{ src: '~/assets/images/temp2_touched.JPG', alt: 'my photo' }}
+    >
+
+    <Fragment slot="title">
+      <span class="text-4xl sm:text-4xl font-bold">
+        Sangsuk Lee
+      </span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="text-xl sm:text-xl font-bold">
+        Postdoctoral scholar
+      </span>
+    </Fragment>
+
+    </Hero>
+
+    <section class="py-8 md:py-16">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+      <p class="text-lg text-justify text-gray-600 dark:text-slate-400">
+        I am a researcher passionate about advancing sustainable water and energy solutions through membrane processes, computational modeling, and AI-driven analysis. My academic journey spans a Ph.D. in Civil, Environmental, and Architectural Engineering at the University of Colorado Boulder with Prof. Anthony Straub, an M.S. at Carnegie Mellon University with Prof. Kelvin Gregory, and early training at Korea University with Prof. Seung Kwan Hong. Currently, I am a postdoctoral researcher at UCLA working with Prof. Eric Hoek, where I lead projects on engineering novel reverse osmosis system, and mass transport mechanisms in membranes. Alongside research, I enjoy physical, water, and wellness activities such as lifting, dancing, pilates, and cold plunge.
+      </p>
+    </div>
+  </section>
+
+
+ {/* 1x3 이미지 그리드 섹션 시작 */}
+<section class="pb-8 md:pb-16">
+  <div class="max-w-4xl mx-auto px-8 sm:px-12">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      
+        {/* 이미지 1 */}
+        <div class="overflow-hidden rounded-lg shadow-lg sm:row-span-2">
+          <Image
+            src={me1}
+            alt="Intro 1"
+            class="w-full h-auto object-cover"
+          />
+        </div>
+
+        {/* 이미지 2 */}
+        <div class="overflow-hidden rounded-lg shadow-lg">
+          <Image
+            src={me2}
+            alt="Intro 2"
+            class="w-full h-auto object-cover"
+          />
+        </div>
+
+        {/* 이미지 3 */}
+        <div class="overflow-hidden rounded-lg shadow-lg">
+          <Image
+            src={me3}
+            alt="Intro 3"
+            class="w-full h-auto object-cover"
+          />
+        </div>
+
+      </div>
+    </div>
+  </section>
+  {/* 1x3 이미지 그리드 섹션 끝 */}
+
+    <!-- Content Widget **************** -->
+    <Content
+      id="vision" isReversed
+      tagline="Vision"
+      title="Research agenda"
+      
+      items={[
+        {
+          title: 'Water',
+          description:
+            'I develop membrane systems that address the coupled chemistry and physics underlying the water–energy nexus. By integrating aquatic chemistry with multiscale transport modeling and data-driven analytics, my research elucidates how emerging contaminants such as PFAS and volatile organics sorb, diffuse, and transform at water–membrane interfaces, ultimately determining their persistence and fate in membrane-based water treatment systems. These mechanistic and data-informed insights guide the design of novel membranes and process-intensified systems that maximize contaminant removal while minimizing energy demand, advancing sustainable and intelligent water management.',
+        },
+        {
+          title: 'Energy',
+          description:
+            'My research advances membrane processes that recover or discharge thermal energy within water infrastructure. Through reactive distillation membranes with vapor-gap configurations, I investigate how thermal and vapor pressure gradients can be harnessed to drive water purification and cooling. These systems leverage liquid–gas phase-change transport and interfacial chemistry to enhance heat recovery and discharge, as surface chemistry governs evaporation and condensation at membrane interfaces, thereby reducing the energy required for purification and cooling. Integrating data-driven modeling and optimization, my work develops cross-scale frameworks that maximize energy recovery and minimize losses, linking water purification, energy efficiency, and intelligent control toward sustainable infrastructure.',
+        },
+        {
+          title: 'Data',
+          description:
+            'At the molecular-to-system scale, my work integrates aquatic chemistry, thermodynamics, and data science to decode the complex interactions among contaminants, membranes, and operating environments. Using Graph Neural Networks and physics-informed machine learning, I develop predictive models that capture how chemical fingerprints, sorption dynamics, and interfacial transport govern the rejection of emerging contaminants and thermal energy recovery across diverse applications. These data-driven frameworks link molecular chemistry to system performance, enabling energy-efficient design, risk forecasting, and adaptive operation of sustainable water infrastructures and forming the decision-making layer of the water–energy–data nexus.',
+        },
+      ]}
+      image={{
+        src: '~/assets/images/nexus22.png',
+        alt: 'water-energy-data nexus',
+        width: 1015,
+        height: 1016,
+        class: 'max-w-md mx-auto h-auto', 
+      }}
+    >
+     <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Water-Energy-Data Nexus</h3>
+      <p class="text-justify">
+        The rise of artificial intelligence adds a transformative data dimension to the traditional water–energy nexus, redefining how we understand and sustain environmental systems. My research addresses this paradigm by integrating multiscale modeling, data-driven analytics, and physicochemical membrane technologies to couple contaminant removal, thermal control, and intelligent process operation. Together, these approaches form a unified framework for resilient and sustainable infrastructures that safeguard human and ecosystem health in the digital age.
+      </p>
+ </Fragment>
+
+      <Fragment slot="bg">
+        <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+      </Fragment>
+    </Content>
+
+    <!-- Features Widget *************** -->
+
+    <Features
+      id="research"
+      tagline="Research"
+      title="Research projects"
+      subtitle=""
+      items={[
+        {
+          title: 'Processes',
+          description:
+            'Studied advanced membrane processes such as <a href="https://www.sciencedirect.com/science/article/pii/S0011916416319257" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline dark:text-blue-400 hover:text-blue-800">forward osmosis</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0376738820308875" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline dark:text-blue-400 hover:text-blue-800">osmotic distillation</a>, <a href="https://pubs.acs.org/doi/full/10.1021/acsestengg.1c00432" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline dark:text-blue-400 hover:text-blue-800">membrane distillation</a>, and <a href="https://www.science.org/doi/full/10.1126/sciadv.adg6638" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline dark:text-blue-400 hover:text-blue-800">pressure-driven distillation</a>, developing a better understanding of membrane interfacial chemistry such as evaporation and condensation, improving water reuse efficiency, and demonstrating high productivity and selectivity in desalination systems.',
+          icon: 'tabler:flask',
+        },
+        {
+          title: 'Surface modification',
+          description:
+            '<a href="https://pubs.acs.org/doi/full/10.1021/acs.nanolett.5c01604" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline dark:text-blue-400 hover:text-blue-800">Engineered re-entrant nanostructures</a> and chemically functionalized omniphobic surfaces on anodic aluminum oxide substrates, achieving enhanced wetting resistance through tailored surface energy modulation and interfacial molecular interactions, enabling wastewater reuse and organic solvent separation.',
+          icon: 'tabler:components',
+        },
+        {
+          title: 'Data-driven analysis',
+          description:
+            'Built machine learning and statistical models including <a href="https://ascelibrary.org/doi/full/10.1061/(ASCE)EE.1943-7870.0001806" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline dark:text-blue-400 hover:text-blue-800">neural networks and random forests</a> to predict reverse osmosis/nanofiltration rejection, integrating <a href="https://www.sciencedirect.com/science/article/pii/S0376738824005210" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline dark:text-blue-400 hover:text-blue-800">molecular fingerprints</a> for accurate solute transport predictions. In addition, I have been building time-series forecasting models based on sensor data from a portable water filtration device, a project supported by the US Navy.',
+          icon: 'tabler:arrows-right-left',
+        },
+        {
+          title: 'Molecular dynamics',
+          description:
+            'Designed simulations to study thermal transport in <a href="https://pubs.acs.org/doi/full/10.1021/acs.jpcc.0c04353" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline dark:text-blue-400 hover:text-blue-800">breathing porous crystals</a> and investigated gas adsorption mechanisms, revealing heat transfer behaviors that guide material design for separation applications.',
+          icon: 'tabler:atom',
+        },
+        {
+          title: 'Optimization',
+          description:
+            'Performed techno-economic and thermodynamic modeling of desalination systems and energy recovery devices, identifying operating conditions that minimize energy use while maintaining high separation performance.',
+          icon: 'tabler:list-check',
+        },
+        {
+          title: 'Computational fluid dynamics',
+          description:
+            'Simulated membrane transport phenomena, including pore size distribution effects on rejection efficiency, to link nanoscale membrane properties with macroscale separation performance.',
+          icon: 'tabler:brand-tailwind',
+        },
+      ]}
+    />
+
+  {/* 이미지 그리드 섹션 시작 */}
+<section class="py-16 md:py-20">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8">
+      
+      {/* 이미지 1 */}
+      <div class="overflow-hidden rounded-lg shadow-lg bg-white dark:bg-slate-700">
+        <div class="p-4 text-center">
+          <p class="font-semibold text-gray-800 dark:text-gray-200">
+            Processes
+          </p>
+        </div>
+        <Image
+          src={research1}
+          alt="Research Image 1"
+          class="w-full h-auto object-cover"
+          loading="lazy"
+        />
+        <div class="p-4 text-center">
+          <p class="text-sm text-gray-600 dark:text-slate-400 mt-1">
+            Organic fouling during FO dewatering of activated sludge
+          </p>
+        </div>
+      </div>
+
+      {/* 이미지 2 */}
+      <div class="overflow-hidden rounded-lg shadow-lg bg-white dark:bg-slate-700">
+        <div class="p-4 text-center">
+          <p class="font-semibold text-gray-800 dark:text-gray-200">
+            Surface modification
+          </p>
+        </div>
+        <Image
+          src={research2}
+          alt="Research Image 2"
+          class="w-full h-auto object-cover"
+          loading="lazy"
+        />
+        <div class="p-4 text-center">
+          <p class="text-sm text-gray-600 dark:text-slate-400 mt-1">
+            Nanoreentrant strcutures to increase liquid entry pressure
+          </p>
+        </div>
+      </div>
+
+      {/* 이미지 3 */}
+      <div class="overflow-hidden rounded-lg shadow-lg bg-white dark:bg-slate-700">
+        <div class="p-4 text-center">
+          <p class="font-semibold text-gray-800 dark:text-gray-200">
+            Data-driven analysis
+          </p>
+        </div>
+        <Image
+          src={research3}
+          alt="Research Image 3"
+          class="w-full h-auto object-cover"
+          loading="lazy"
+        />
+        <div class="p-4 text-center">
+          <p class="text-sm text-gray-600 dark:text-slate-400 mt-1">
+            Molecular fingerprints aided data-driven models for membrane rejection predictions 
+          </p>
+        </div>
+      </div>
+
+      {/* 이미지 4 */}
+      <div class="overflow-hidden rounded-lg shadow-lg bg-white dark:bg-slate-700">
+        <div class="p-4 text-center">
+          <p class="font-semibold text-gray-800 dark:text-gray-200">
+            Molecular dynamics
+          </p>
+        </div>
+        <Image
+          src={research4}
+          alt="Research Image 4"
+          class="w-full h-auto object-cover"
+        />
+        <div class="p-4 text-center">
+          <p class="text-sm text-gray-600 dark:text-slate-400 mt-1">
+            Thermal conductivity calculations for breathing porous crystals 
+          </p>
+        </div>
+      </div>
+
+      {/* 이미지 5 */}
+      <div class="overflow-hidden rounded-lg shadow-lg bg-white dark:bg-slate-700">
+        <div class="p-4 text-center">
+          <p class="font-semibold text-gray-800 dark:text-gray-200">
+            Optimization
+          </p>
+        </div>
+        <Image
+          src={research5}
+          alt="Research Image 5"
+          class="w-full h-auto object-cover"
+        />
+        <div class="p-4 text-center">
+          <p class="text-sm text-gray-600 dark:text-slate-400 mt-1">
+            Bypass flow rate optimization in reverse osmosis pressure vessel 
+          </p>
+        </div>
+      </div>
+
+      {/* 이미지 6 */}
+      <div class="overflow-hidden rounded-lg shadow-lg bg-white dark:bg-slate-700">
+        <div class="p-4 text-center">
+          <p class="font-semibold text-gray-800 dark:text-gray-200">
+            Computational fluid dynamics
+          </p>
+        </div>
+        <Image
+          src={research6}
+          alt="Research Image 6"
+          class="w-full h-auto object-cover"
+        />
+        <div class="p-4 text-center">
+          <p class="text-sm text-gray-600 dark:text-slate-400 mt-1">
+            Simulating flow velocity through ultrafiltration membrane pores with different pore size distributions  
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+{/* 이미지 그리드 섹션 끝 */}
+
+
+      <!-- Stats Widget ****************** -->
+
+      <Stats
+        stats={[
+          { title: 'Academic publications', amount: '11' },
+          { title: 'Citations', amount: '195' },
+        ]}
+      />
+
+      <div class="flex justify-center py-8 md:py-12">
+      <Button
+        variant="primary"
+        href="https://scholar.google.com/citations?user=ckiJGvMAAAAJ&hl=en"
+        target="_blank"
+        icon="tabler:school"
+      >
+        View on Google Scholar
+      </Button>
+    </div>
+
+    <!-- Features Widget *************** -->
+
+    <Features
+      id="teaching"
+      tagline="Teaching"
+      title="Teaching experiences"
+      subtitle=""
+      items={[
+        {
+          title: 'Teaching Assistant',
+          description:
+            `
+    <ul class="list-disc list-inside space-y-1">
+      <li>Water Environmental Plant Engineering (Korea University)</li>
+      <li>Environmental Engineering (Korea University)</li>
+      <li>Water Chemistry (University of Coloardo Boulder)</li>
+      <li>Fundamental of Environmental Engineering (University of Coloardo Boulder)</li>
+    </ul>
+  `,
+          icon: 'tabler:help',
+        },
+        {
+          title: 'Guest Lecturer',
+          description:
+            `
+    <ul class="list-disc list-inside space-y-1">
+      <li>Water Environmental Plant Engineering (Korea University)</li>
+      <li>Fundamental of Environmental Engineering (University of Coloardo Boulder)</li>
+      <li>Membrane Separations in Aquatic Systems (University of California Los Angeles)</li>
+    </ul>
+  `,
+          icon: 'tabler:pencil',
+        },
+        {
+          title: 'Mentor',
+          description:
+             `
+    <ul class="list-disc list-inside space-y-1">
+      <li>Discovery Learning Apprenticeship Program (University of Coloardo Boulder)</li>
+      <li>UCLA Grad Slam (University of California Los Angeles)</li>
+    </ul>
+  `,
+          icon: 'tabler:users-group',
+        },
+        {
+          title: 'Professional Development',
+          description:
+            `
+            <ul class="list-disc list-inside space-y-1">
+              <li>NSF I-Corps Regional Program (University of California Los Angeles)</li>
+              <li>Aademic Teaching Workshop (University of Colorado Boulder)</li>
+            </ul>
+            `,
+          icon: 'tabler:book',
+        },
+     
+      ]}
+    />
+
+    <!-- Features2 Widget ************** -->
+
+    <Features2
+      id="services"
+      title="Community involvement"
+      subtitle="Community service, outreach, and  volunteering"
+      tagline="Services"
+      items={[
+        {
+          title: 'Navy',
+          description: "I served in the Republic of Korea Navy at the Naval Headquarters, as part of the Facility Support Squadron.",
+          icon: 'tabler:anchor',
+        },
+        {
+          title: 'Water Well Development',
+          description:
+            "I worked on a water well drilling team in Ethiopia for a year, constructing wells in rural villages.",
+          icon: 'tabler:world',
+        },
+        {
+          title: 'North Korean Refugees',
+          description:
+            'I volunteered as a private English tutor for North Korean refugee students.',
+          icon: 'tabler:heart-handshake',
+        },
+        {
+          title: 'ENG-DNCE',
+          description:
+            "I volunteered to teach science classes by incorporating dance at local elementary schools during my Ph.D.",
+          icon: 'tabler:music',
+        },
+        {
+          title: 'Farm club',
+          description:
+            'I volunteered with the Farm Club in Boulder, helping to manage community gardens on campus and in the city.',
+          icon: 'tabler:plant',
+        },
+        {
+          title: 'Meal Prep and Service',
+          description: 'I volunteered to prepare and serve meals for people experiencing homelessness.',
+          icon: 'tabler:bread',
+        }
+      ]}
+    >
+      <Fragment slot="bg">
+        <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+      </Fragment>
+    </Features2>
+
+    {/* 이미지 갤러리 섹션 시작 */}
+  <section class="py-16 md:py-20 bg-gray-50 dark:bg-slate-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+    
+      {/* 섹션 제목 */}
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold"> </h2>
+        <p class="text-muted mt-2"> </p>
+      </div>
+
+      {/* 이미지 그리드 */}
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      
+        {/* 이미지 1 */}
+        <div class="overflow-hidden rounded-lg shadow-lg">
+          
+          <Image
+            src={services1}
+            alt="Services Image 1"
+            class="w-full h-full object-cover object-center"
+            loading="lazy"
+          />
+        </div>
+
+        {/* 이미지 2 */}
+        <div class="overflow-hidden rounded-lg shadow-lg">
+          
+          <Image
+            src={services2}
+            alt="Services Image 2"
+            class="w-full h-full object-cover object-center"
+            loading="lazy"
+          />
+        </div>
+
+        {/* 이미지 3 */}
+        <div class="overflow-hidden rounded-lg shadow-lg">
+          
+          <Image
+            src={services3}
+            alt="Services Image 3"
+            class="w-full h-full object-cover object-center"
+            loading="lazy"
+          />
+        </div>
+
+        {/* 이미지를 더 추가하려면 이 블록을 복사해서 사용하세요 */}
+        {/* <div class="overflow-hidden rounded-lg shadow-lg">
+          <img
+            src="~/assets/images/gallery-image-4.jpg"
+            alt="네 번째 이미지 설명"
+            class="w-full h-full object-cover object-center"
+            loading="lazy"
+          />
+        </div>
+        */}
+
+      </div>
+    </div>
+  </section>
+  {/* 이미지 갤러리 섹션 끝 */}
+
+    <!-- FAQs Widget ******************* -->
+
+    <FAQs
+      title="Frequently Asked Questions"
+      subtitle="Pesonal opinions and hot takes"
+      tagline="FAQs"
+      classes={{ container: 'max-w-6xl' }}
+      items={[
+        {
+          title: 'What is the most frequent question you receive as a water researcher?',
+          description:
+            "Is tap water safe to drink?!?!",
+        },
+        {
+          title: 'Do you prefer coffee or tea?',
+          description:
+            'Coffee in the morning for an immediate wakeup and matcha in the afternoon for a mild but long-lasting effect.',
+        },
+        {
+          title: 'What does movement mean to you in your life?',
+          description:
+            "My background as an amateur powerlifter and dancer has given me a profound appreciation for movement. I'm fascinated by the intricate mechanics of how the body moves and its powerful effect on the mind.",
+        },
+        {
+          title: "What is your favorite quote from a scientist?",
+          description:
+            "Louis Pasteur 'Chance favors the prepared mind'",
+        }
+      ]}
+    />
+
+  
+
+  </Layout>

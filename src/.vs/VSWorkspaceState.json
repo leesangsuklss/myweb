@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\components",
+    "\\components\\widgets",
+    "\\content",
+    "\\data",
+    "\\layouts",
+    "\\pages",
+    "\\pages\\homes",
+    "\\pages\\landing"
+  ],
+  "SelectedNode": "\\components\\widgets\\Content.astro",
+  "PreviewInSolutionExplorer": false
+}
