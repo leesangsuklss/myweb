@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\nginx",
+    "\\public",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\blog",
+    "\\src\\pages",
+    "\\src\\pages\\[...blog]",
+    "\\src\\pages\\[...blog]\\[category]",
+    "\\src\\pages\\[...blog]\\[tag]"
+  ],
+  "SelectedNode": "\\src\\pages\\index.astro",
+  "PreviewInSolutionExplorer": false
+}

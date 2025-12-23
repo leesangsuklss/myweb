@@ -41,6 +41,6 @@ export const footerData = {
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/leesangsuklss' },
   ],
   footNote: `
-    Made by Sangsuk Lee · All rights reserved.
+    Made by Sangsuk Lee · Powered by Astro & Tailwind
   `,
 };

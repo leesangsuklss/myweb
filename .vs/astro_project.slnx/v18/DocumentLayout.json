@@ -1,0 +1,445 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\astro_project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\astro_project\\src\\pages\\index.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\index.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\astro_project\\src\\pages\\[...blog]\\[...page].astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\[...blog]\\[...page].astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\astro_project\\src\\pages\\[...blog]\\index.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\[...blog]\\index.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\astro_project\\src\\pages\\[...blog]\\[category]\\[...page].astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\[...blog]\\[category]\\[...page].astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\astro_project\\src\\pages\\homes\\mobile-app.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\homes\\mobile-app.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\astro_project\\src\\pages\\homes\\personal.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\homes\\personal.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\astro_project\\src\\content\\config.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\content\\config.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\astro_project\\src\\components\\blog\\Pagination.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\blog\\Pagination.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\astro_project\\src\\components\\blog\\ListItem.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\blog\\ListItem.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\astro_project\\src\\components\\blog\\List.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\blog\\List.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\astro_project\\src\\components\\blog\\Headline.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\blog\\Headline.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\astro_project\\src\\components\\blog\\GridItem.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\blog\\GridItem.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\astro_project\\src\\components\\blog\\Grid.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\blog\\Grid.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\astro_project\\src\\navigation.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\navigation.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\astro_project\\src\\config.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\config.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\astro_project\\src\\components\\CustomStyles.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\CustomStyles.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\astro_project\\src\\components\\ui\\Headline.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ui\\Headline.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\astro_project\\src\\components\\ui\\Background.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ui\\Background.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\astro_project\\src\\components\\common\\Metadata.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\common\\Metadata.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\astro_project\\src\\components\\common\\CommonMeta.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\common\\CommonMeta.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\astro_project\\src\\components\\common\\Analytics.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\common\\Analytics.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\astro_project\\src\\layouts\\PageLayout.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\layouts\\PageLayout.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\astro_project\\src\\layouts\\Layout.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\layouts\\Layout.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\astro_project\\src\\layouts\\LandingLayout.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\layouts\\LandingLayout.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\astro_project\\src\\pages\\homes\\startup.astro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\homes\\startup.astro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.astro",
+              "DocumentMoniker": "D:\\astro_project\\src\\pages\\index.astro",
+              "RelativeDocumentMoniker": "src\\pages\\index.astro",
+              "ToolTip": "D:\\astro_project\\src\\pages\\index.astro",
+              "RelativeToolTip": "src\\pages\\index.astro",
+              "ViewState": "AgIAADIBAAAAAAAAAAAAAD8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T19:18:26.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "[...page].astro",
+              "DocumentMoniker": "D:\\astro_project\\src\\pages\\[...blog]\\[...page].astro",
+              "RelativeDocumentMoniker": "src\\pages\\[...blog]\\[...page].astro",
+              "ToolTip": "D:\\astro_project\\src\\pages\\[...blog]\\[...page].astro",
+              "RelativeToolTip": "src\\pages\\[...blog]\\[...page].astro",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T19:16:33.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.astro",
+              "DocumentMoniker": "D:\\astro_project\\src\\pages\\[...blog]\\index.astro",
+              "RelativeDocumentMoniker": "src\\pages\\[...blog]\\index.astro",
+              "ToolTip": "D:\\astro_project\\src\\pages\\[...blog]\\index.astro",
+              "RelativeToolTip": "src\\pages\\[...blog]\\index.astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T19:16:26.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "[...page].astro",
+              "DocumentMoniker": "D:\\astro_project\\src\\pages\\[...blog]\\[category]\\[...page].astro",
+              "RelativeDocumentMoniker": "src\\pages\\[...blog]\\[category]\\[...page].astro",
+              "ToolTip": "D:\\astro_project\\src\\pages\\[...blog]\\[category]\\[...page].astro",
+              "RelativeToolTip": "src\\pages\\[...blog]\\[category]\\[...page].astro",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T19:16:21.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "mobile-app.astro",
+              "DocumentMoniker": "D:\\astro_project\\src\\pages\\homes\\mobile-app.astro",
+              "RelativeDocumentMoniker": "src\\pages\\homes\\mobile-app.astro",
+              "ToolTip": "D:\\astro_project\\src\\pages\\homes\\mobile-app.astro",
+              "RelativeToolTip": "src\\pages\\homes\\mobile-app.astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T19:16:07.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "personal.astro",
+              "DocumentMoniker": "D:\\astro_project\\src\\pages\\homes\\personal.astro",
+              "RelativeDocumentMoniker": "src\\pages\\homes\\personal.astro",
+              "ToolTip": "D:\\astro_project\\src\\pages\\homes\\personal.astro",
+              "RelativeToolTip": "src\\pages\\homes\\personal.astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T19:16:01.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Pagination.astro",
+              "DocumentMoniker": "D:\\astro_project\\src\\components\\blog\\Pagination.astro",
+              "RelativeDocumentMoniker": "src\\components\\blog\\Pagination.astro",
+              "ToolTip": "D:\\astro_project\\src\\components\\blog\\Pagination.astro",
+              "RelativeToolTip": "src\\components\\blog\\Pagination.astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T19:15:43.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ListItem.astro",
+              "DocumentMoniker": "D:\\astro_project\\src\\components\\blog\\ListItem.astro",
+              "RelativeDocumentMoniker": "src\\components\\blog\\ListItem.astro",
+              "ToolTip": "D:\\astro_project\\src\\components\\blog\\ListItem.astro",
+              "RelativeToolTip": "src\\components\\blog\\ListItem.astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T19:15:41.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "List.astro",
+              "DocumentMoniker": "D:\\astro_project\\src\\components\\blog\\List.astro",
+              "RelativeDocumentMoniker": "src\\components\\blog\\List.astro",
+              "ToolTip": "D:\\astro_project\\src\\components\\blog\\List.astro",
+              "RelativeToolTip": "src\\components\\blog\\List.astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T19:15:40.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Headline.astro",
+              "DocumentMoniker": "D:\\astro_project\\src\\components\\blog\\Headline.astro",
+              "RelativeDocumentMoniker": "src\\components\\blog\\Headline.astro",
+              "ToolTip": "D:\\astro_project\\src\\components\\blog\\Headline.astro",
+              "RelativeToolTip": "src\\components\\blog\\Headline.astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T19:15:37.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GridItem.astro",
+              "DocumentMoniker": "D:\\astro_project\\src\\components\\blog\\GridItem.astro",
+              "RelativeDocumentMoniker": "src\\components\\blog\\GridItem.astro",
+              "ToolTip": "D:\\astro_project\\src\\components\\blog\\GridItem.astro",
+              "RelativeToolTip": "src\\components\\blog\\GridItem.astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T19:15:35.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Grid.astro",
+              "DocumentMoniker": "D:\\astro_project\\src\\components\\blog\\Grid.astro",
+              "RelativeDocumentMoniker": "src\\components\\blog\\Grid.astro",
+              "ToolTip": "D:\\astro_project\\src\\components\\blog\\Grid.astro",
+              "RelativeToolTip": "src\\components\\blog\\Grid.astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T19:15:33.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "config.yaml",
+              "DocumentMoniker": "D:\\astro_project\\src\\config.yaml",
+              "RelativeDocumentMoniker": "src\\config.yaml",
+              "ToolTip": "D:\\astro_project\\src\\config.yaml",
+              "RelativeToolTip": "src\\config.yaml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAABkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-12-23T19:14:09.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "config.ts",
+              "DocumentMoniker": "D:\\astro_project\\src\\content\\config.ts",
+              "RelativeDocumentMoniker": "src\\content\\config.ts",
+              "ToolTip": "D:\\astro_project\\src\\content\\config.ts",
+              "RelativeToolTip": "src\\content\\config.ts",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAD8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-12-23T19:07:52.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomStyles.astro",
+              "DocumentMoniker": "D:\\astro_project\\src\\components\\CustomStyles.astro",
+              "RelativeDocumentMoniker": "src\\components\\CustomStyles.astro",
+              "ToolTip": "D:\\astro_project\\src\\components\\CustomStyles.astro",
+              "RelativeToolTip": "src\\components\\CustomStyles.astro",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T19:13:41.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Headline.astro",
+              "DocumentMoniker": "D:\\astro_project\\src\\components\\ui\\Headline.astro",
+              "RelativeDocumentMoniker": "src\\components\\ui\\Headline.astro",
+              "ToolTip": "D:\\astro_project\\src\\components\\ui\\Headline.astro",
+              "RelativeToolTip": "src\\components\\ui\\Headline.astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T19:13:32.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Background.astro",
+              "DocumentMoniker": "D:\\astro_project\\src\\components\\ui\\Background.astro",
+              "RelativeDocumentMoniker": "src\\components\\ui\\Background.astro",
+              "ToolTip": "D:\\astro_project\\src\\components\\ui\\Background.astro",
+              "RelativeToolTip": "src\\components\\ui\\Background.astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T19:13:28.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Metadata.astro",
+              "DocumentMoniker": "D:\\astro_project\\src\\components\\common\\Metadata.astro",
+              "RelativeDocumentMoniker": "src\\components\\common\\Metadata.astro",
+              "ToolTip": "D:\\astro_project\\src\\components\\common\\Metadata.astro",
+              "RelativeToolTip": "src\\components\\common\\Metadata.astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T19:13:19.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "navigation.ts",
+              "DocumentMoniker": "D:\\astro_project\\src\\navigation.ts",
+              "RelativeDocumentMoniker": "src\\navigation.ts",
+              "ToolTip": "D:\\astro_project\\src\\navigation.ts",
+              "RelativeToolTip": "src\\navigation.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-12-23T19:09:27.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CommonMeta.astro",
+              "DocumentMoniker": "D:\\astro_project\\src\\components\\common\\CommonMeta.astro",
+              "RelativeDocumentMoniker": "src\\components\\common\\CommonMeta.astro",
+              "ToolTip": "D:\\astro_project\\src\\components\\common\\CommonMeta.astro",
+              "RelativeToolTip": "src\\components\\common\\CommonMeta.astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T19:13:17.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Analytics.astro",
+              "DocumentMoniker": "D:\\astro_project\\src\\components\\common\\Analytics.astro",
+              "RelativeDocumentMoniker": "src\\components\\common\\Analytics.astro",
+              "ToolTip": "D:\\astro_project\\src\\components\\common\\Analytics.astro",
+              "RelativeToolTip": "src\\components\\common\\Analytics.astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T19:13:14.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Layout.astro",
+              "DocumentMoniker": "D:\\astro_project\\src\\layouts\\Layout.astro",
+              "RelativeDocumentMoniker": "src\\layouts\\Layout.astro",
+              "ToolTip": "D:\\astro_project\\src\\layouts\\Layout.astro",
+              "RelativeToolTip": "src\\layouts\\Layout.astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T19:12:54.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LandingLayout.astro",
+              "DocumentMoniker": "D:\\astro_project\\src\\layouts\\LandingLayout.astro",
+              "RelativeDocumentMoniker": "src\\layouts\\LandingLayout.astro",
+              "ToolTip": "D:\\astro_project\\src\\layouts\\LandingLayout.astro",
+              "RelativeToolTip": "src\\layouts\\LandingLayout.astro",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T19:12:48.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "startup.astro",
+              "DocumentMoniker": "D:\\astro_project\\src\\pages\\homes\\startup.astro",
+              "RelativeDocumentMoniker": "src\\pages\\homes\\startup.astro",
+              "ToolTip": "D:\\astro_project\\src\\pages\\homes\\startup.astro",
+              "RelativeToolTip": "src\\pages\\homes\\startup.astro",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAE4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T19:12:16.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PageLayout.astro",
+              "DocumentMoniker": "D:\\astro_project\\src\\layouts\\PageLayout.astro",
+              "RelativeDocumentMoniker": "src\\layouts\\PageLayout.astro",
+              "ToolTip": "D:\\astro_project\\src\\layouts\\PageLayout.astro",
+              "RelativeToolTip": "src\\layouts\\PageLayout.astro",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T19:08:19.737Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
