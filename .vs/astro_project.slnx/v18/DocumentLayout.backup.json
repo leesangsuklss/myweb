@@ -120,7 +120,7 @@
               "RelativeDocumentMoniker": "src\\pages\\index.astro",
               "ToolTip": "D:\\astro_project\\src\\pages\\index.astro",
               "RelativeToolTip": "src\\pages\\index.astro",
-              "ViewState": "AgIAAKMAAAAAAAAAAAAQwLUAAACbAgAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAQwIkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-12-23T19:18:26.623Z",
               "EditorCaption": ""
@@ -412,10 +412,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-12-23T19:08:19.737Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
